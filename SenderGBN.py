@@ -1,13 +1,3 @@
-# NAME: Akila Tharini Sivakumar
-# Roll Number: CS20B006
-# Course: CS3205 Jan. 2023 semester
-# Lab number: 4
-# Date of submission: 05.04.2023
-# I confirm that the source file is entirely written by me without
-# resorting to any dishonest means.
-# Website(s) that I used for basic socket programming code are:
-# URL(s): https://pythontic.com/modules/socket/udp-client-server-example
-
 import sys
 import os
 import socket
