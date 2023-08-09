@@ -1,3 +1,8 @@
+This is an implementation of the Go-back-N reliable transmission protocol. It also measures the round-trip delays. 
+
+There are two separate programs running on two different hosts - a sender program that generates and transmits packets and a receiver that accepts the packets,
+and transmits the acknowledgments to the sender. The sender and receiver communicate through UDP sockets. The receiver is implemented as a UDP server and the sender is implemented as a UDP client.
+
 To run the receiver:
    python3 ReceiverGBN.py -p 12345 -n 400 -e 0.00001
 
